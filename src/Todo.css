@@ -1,0 +1,23 @@
+
+
+/* Todo List Styling */
+
+.todo #todo-text {
+  margin-left: 8px;
+}
+
+.todo {
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom:1px solid #ddd;
+}
+
+.todo .close {
+  color: white;
+  opacity: 0.5;
+}
+
+li.todo:last-child{
+  border-bottom:none;
+}

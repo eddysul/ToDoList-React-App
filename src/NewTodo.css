@@ -1,0 +1,33 @@
+/* Styling for Input Form */
+
+#form {
+  display: flex;
+}
+
+.form-control {
+  outline: none;
+}
+
+#new-todo-form {
+  width: 500px;
+}
+
+#new-todo-form #newTitle {
+  float: left;
+  width: 450px;
+  height: 32px;
+}
+
+#new-todo-form #add-button {
+  float: right;
+}
+
+
+#input-form-section {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#input-form-section input {
+  height: 32px;
+}
